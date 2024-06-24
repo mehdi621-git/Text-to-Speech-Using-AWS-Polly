@@ -13,8 +13,8 @@ AWS.config.update({
 const polly=new AWS.Polly();
 
 const Root = ({ children }) => {
-  //const [request, setrequest] = useState("");
-  //console.log(request);
+  
+ 
   const [data,setdata]=useState("");
   const [liaudio,setliaudio]=useState();
   const [Loading,setLoading]=useState(true);
@@ -23,7 +23,7 @@ const Root = ({ children }) => {
   const [selection,setselection]=useState('Joanna')
   
    const toSpeech=(request)=>{
-    console.log(selection)
+
     setfetchdata(true);
     polly.synthesizeSpeech({
         Text : request,
@@ -37,9 +37,9 @@ const Root = ({ children }) => {
             console.log(error + "occured");
         }
         else{
-            console.log(data1)
+            
             setdata(data1);
-            console.log(data)
+           )
         }
     }
 )
