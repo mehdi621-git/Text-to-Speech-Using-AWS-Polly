@@ -1,5 +1,6 @@
 <h3>Text To Speech Converter</h3>
 <h4>Introduction</h4>
+<p>The front-end is build using "Vite + React.js"</p>
 <p>This app Converts text into 4 different people voices </p>
 <p>This app Uses AWS Polly to Convert text into speech at the backend</p>
 <p>You could also select your preferred voice from selection tab</p>
