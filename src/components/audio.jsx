@@ -49,11 +49,9 @@ const time=()=>{
   const audio=audioREF.current;
   setcurrentTime(audio.currentTime);
   setprogress((audio.currentTime/audio.duration)*100)
-  console.log("time"+audio.currentTime)
-  console.log("duratiom" +audio.duration)
-  console.log("true = pause"+play)
+
   if(audio.currentTime===audio.duration){
-    console.log(play)
+    
     setplay(false)
   }
 }
