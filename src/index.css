@@ -1,0 +1,23 @@
+:root{
+   
+    overflow: hidden;
+}
+body {
+    background-image: linear-gradient(to right ,rgba(159, 79, 196, 0.959),rgba(47, 200, 223, 0.833))
+}
+.loadingg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    size: 2500px;
+}
+.changewidth{
+    width: 16%;
+}
+.textstyle span{
+     font-family: sans-serif;
+     border-radius: 17%;
+     font-weight: 550;
+     background-color: rgb(246, 6, 170);
+     color: rgba(255, 255, 255, 0.886);
+}

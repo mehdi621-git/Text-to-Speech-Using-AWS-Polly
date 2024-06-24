@@ -1,0 +1,16 @@
+
+.size{
+     
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    left: 20%;
+    background-color: rgb(247, 67, 124);
+    outline: none;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    
+}
